@@ -1,0 +1,24 @@
+:root {
+    --main-bg-color: #c2b5b5;
+    --header-bg-color: #183A4F;
+    --extra-bg-color: #f7f5f5;
+    --accent-btn-color: #e20909;
+    --font-color: #fafafa;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "HelveticaNeueCyr", Arial, sans-serif;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}

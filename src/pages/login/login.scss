@@ -1,0 +1,77 @@
+@import "../../styles/index.scss";
+
+body {
+    background-color: #e3e3e3;
+}
+
+.main {
+    height: 100%;
+}
+
+.container-login {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 288px;
+    height: 300px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px 3px #B5B5B5;
+    border-radius: 5px;
+
+    & .form-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 30px;
+    }
+
+    & h3 {
+        @include f300;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    & .label-name {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: $label-text;
+        margin-bottom: 5px;
+    }
+
+    & .btn {
+        width: 240px;
+        height: 24px;
+        margin-top: 20px;
+        background: $success;
+        border: 1px solid #5EE48C;
+        border-radius: 5px;
+        color: white;
+    }
+
+    & input {
+        padding: 5px 10px;
+        width: 240px;
+        height: 24px;
+        background: #FFFFFF;
+        border: 1px solid #7B61FF;
+        box-shadow: inset 0px 0px 2px 1px #B5B5B5;
+        border-radius: 3px;
+        margin-bottom: 20px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
